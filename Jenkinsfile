@@ -1,5 +1,6 @@
-vars 
-| --- welcomeJob.groovy
+@Library('first-shared-lib')_
 
-@Library('first-shared-lib') _
-welcomeJob ‘lambdatest’
+ stage('Demo') {
+     echo 'Hello world'
+     welcomeJob 'Dave'
+ }
