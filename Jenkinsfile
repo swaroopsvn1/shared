@@ -1,2 +1,2 @@
 @Library('my-library') _
-welcomeJob ‘lambdatest
+welcomeJob ‘lambdatest'
