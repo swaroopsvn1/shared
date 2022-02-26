@@ -8,6 +8,7 @@ def add(x,y){
     echo " multiplecation ${x} and ${y} results ${x*y}"
 	}
 	
-  def asString = ${cond}.join(", ") 	
-   
+  def asString(){
+   ${cond}.join(", ") 	
+   }
    
