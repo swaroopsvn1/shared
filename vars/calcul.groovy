@@ -5,6 +5,7 @@ import java.io.*
 import java.net.*
 import groovy.lang.*
 import groovy.util.* 
+
 def add(x,y){
    echo "adding ${x} and ${y} results ${x+y}"
    }
@@ -20,4 +21,8 @@ def add(x,y){
     }
     return created
 } 
+
+def string(input){
+println string.length()
+}
    
