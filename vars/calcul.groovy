@@ -1,5 +1,10 @@
 #!/usr/bin/env groovy
-
+import java.lang.*
+import java.util.*
+import java.io.*
+import java.net.*
+import groovy.lang.*
+import groovy.util.* 
 def add(x,y){
    echo "adding ${x} and ${y} results ${x+y}"
    }
